@@ -9,8 +9,8 @@ class Menu extends Phaser.Scene {
         super("bootGame");
     }
     preload() {
-        this.load.image('circle', 'assets/circle.png');
-        this.load.image('button', 'assets/button.png')
+        this.load.image('circle', 'https://raw.githubusercontent.com/ZanderJacobsen/HexaDots/main/assets/circle.png');
+        this.load.image('button', 'https://raw.githubusercontent.com/ZanderJacobsen/HexaDots/main/assets/button.png');
     }
     create() {
         // Make Sliders for the 3 adjustable settings for gameSettings

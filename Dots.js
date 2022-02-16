@@ -4,8 +4,8 @@ class Dots extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('hexagon', 'assets/hexagon.png');
-        this.load.image('fill', 'assets/dotFill.png');
+        this.load.image('hexagon', 'https://raw.githubusercontent.com/ZanderJacobsen/HexaDots/main/assets/hexagon.png');
+        this.load.image('fill', 'https://raw.githubusercontent.com/ZanderJacobsen/HexaDots/main/assets/dotFill.png');
     }
 
     create() {
